@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Himu Dance Academy 
+    //- you can add here script 
+    block scripts
+    block style
+  body
+     nav#navbar
+      ul  
+          div#logo 
+              img(src="/static/img/logo.jpg") 
+              | HDA
+          li #[a(href="/") About]
+          li #[a(href="/") Services]
+          li #[a(href="/") Class info] 
+          li #[a(href="/contact") Contact us] 
+     //- you can add here content
+     block content
+    
+     footer#footer
+          | copyright @2019 HimuDanceacademy.com |All right reseved
+     

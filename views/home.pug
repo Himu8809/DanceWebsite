@@ -1,0 +1,47 @@
+//- it fill pug according to base.pug and serve  for base template written block here , there content will be replace by base.pug content
+extends base.pug
+
+
+block scripts
+  script(src='/static/index.js')
+
+
+block style 
+     style
+      include ../static/style.css
+
+
+block content 
+      section#introsection 
+          div Welcome to Himu's Dance academy 
+          div.small  Live learn dance sleep 
+      section#missionsection 
+          h2 Our mission 
+          div.card 
+              h3 Dance perfection
+                div.card-box 
+                  div.card-img 
+                    img(src="/static/img/1.jpg")
+                  div.cardcontent 
+                     p This is the best academyof the universe
+          div.card 
+              h3 Dance the way you like
+                div.card-box 
+                  div.card-img 
+                    img(src="/static/img/2.jpg")
+                  div.cardcontent 
+                     p This is the best academyof the universe
+          div.card 
+              h3 Expert teaching
+                div.card-box 
+                  div.card-img 
+                    img(src="/static/img/3.jpg")
+                  div.cardcontent 
+                     p This is the best academyof the universe
+      section#sponsorsection 
+          h2 Our sponsor 
+          div#sponsers   
+                img(src="/static/img/logo1.png", alt="sponser img",class="spImage")
+                img(src="/static/img/logo2.png", alt="sponser img",class="spImage")
+                img(src="/static/img/logo3.jpg", alt="sponser img",class="spImage")
+                img(src="/static/img/logo4.png", alt="sponser img",class="spImage")

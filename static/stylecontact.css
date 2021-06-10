@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    margin: 12px opx;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.myinput{
+    font-size: 16px;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid green;
+    border-radius: 12px;
+    /* to remove suggestion in form  */
+    outline: none;
+}
+.btn{
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid #030303;
+    border-radius: 10px;
+    color: white;
+    background-color: tomato;
+    cursor: pointer;
+    outline: none;
+    margin: 26px;
+}
+.container{
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 43px 0px;
+}
+.container h1{
+    font-family: 'Girassol', cursive;
+    font-size: 34px;
+}
